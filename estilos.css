@@ -66,6 +66,7 @@ img{
     font-weight: 700;
     padding: 0px 10px;
     margin-bottom: 1rem;
+    color: var(--Dark-blue);
 }
 
 .p-parrafo{
@@ -73,4 +74,5 @@ img{
     position: relative;
     bottom: 2.5rem;
     font-size: 11px;
+    color: var(--Grayish-blue);
 }
