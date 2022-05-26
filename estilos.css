@@ -24,14 +24,28 @@ body{
     background-color: var(--Light-gray);
 }
 
+body, html {
+    height: 100%;
+}
+
+  
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 .div-contenedor{
     background-color: var(--width);
-    width: 15rem;
+    width: 200px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     margin: 10px auto;
     border-radius: 10px;
 }
+
 
 .contenedor-img{
     padding: 0.5rem;
@@ -42,23 +56,21 @@ img{
     border-radius: 10px;
 }
 
-.contenedor-texto{
-    padding: 0 10px;
-    margin-bottom: 5px; 
-}
-
-.p-titulo{
-    font-weight: 700;
-    padding: 0 10px ;
-    color: var(--Dark-blue);
-}
-
-.p-titulo , .p-parrafo{
+.p-parrafo,.p-titulo{
     text-align: center;
 }
 
+.p-titulo{
+    position: relative;
+    bottom: 10px;
+    font-weight: 700;
+    padding: 0px 10px;
+    margin-bottom: 1rem;
+}
+
 .p-parrafo{
+    padding: 10px;
+    position: relative;
+    bottom: 2.5rem;
     font-size: 11px;
-    padding: 0 1rem;
-    color: var(--Grayish-blue);
 }
