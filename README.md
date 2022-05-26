@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-url: qrcomponente.netlify.app
+[link del para ver qr componente](https://qrcomponente.netlify.app)
 
 Thanks for checking out this front-end coding challenge.
 
